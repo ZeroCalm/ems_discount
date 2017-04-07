@@ -15,7 +15,5 @@ Rails.application.routes.draw do
 
      get "/locations", to: "locations#index", as: "locations"
      get '/locations/:id/edit', to: 'locations#edit', as: "location_edit"
-     get '/users', to: 'users#show', as: "users"
+     get '/homes', to: 'home#show', as: "homes"
    end
-end
-
