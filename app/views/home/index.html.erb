@@ -8,6 +8,12 @@
   <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
 <% end %>
 
-<br />
 
-<h2 class="center">Welcome to EMT Discounts</h2>
+
+<h2 class="jumbotron">Welcome to Code4 Discounts</h2>
+
+
+
+<% if user_signed_in? %>
+  <li role="presentation"><%= link_to "View Map Here", locations_path %></li>
+<% end %>
