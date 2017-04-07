@@ -12,7 +12,10 @@ Rails.application.routes.draw do
      root to: "home#index"
 
 
+
      get "/locations", to: "locations#index", as: "locations"
      get '/locations/:id/edit', to: 'locations#edit', as: "location_edit"
      get '/users', to: 'users#show', as: "users"
    end
+end
+
