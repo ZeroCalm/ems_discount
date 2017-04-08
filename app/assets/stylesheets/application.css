@@ -15,8 +15,8 @@
  *= require_self
  */
 
-
-.map {
-  width: 100%;
-  margin: 0 auto;
-}
+ #map {
+         width: 100%;
+         height: 400px;
+         background-color: grey;
+       }
