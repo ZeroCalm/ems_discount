@@ -11,3 +11,12 @@
 <% if @user.email == "timdatech@yahoo.com" %>
   <li role="presentation"><%= link_to "edit here", homes_path %></li>
 <% end %>
+  <div class="map">
+    <!-- See  locations_helper-->
+     <%= image_tag google_map(center: "San Leandro") %>
+  </div>
+<!--
+<iframe class="img-responsive img-rounded map" width="300" height="300" frameborder="0" style="border:0"
+ src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB01HYiDT2ONKAvh7xwpTM2aaPCYaSiEVI&q=Alameda_county"
+ allowfullscreen>
+</iframe> -->

@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Location.create(name: "Bens", address: "somting", description: "yep", discount_offered: "asdfsdf", latitude: "1928293", longitude: "23234234")
