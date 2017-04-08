@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-
   Location.create(name: "Ikes Sanwiches", address: "1 Happy St.", description: "We sell sanwiches", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
   Location.create(name: "McDonalds", address: "2 Happy St.", description: "We sell bad health", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
   Location.create(name: "Burger King", address: "3 Happy St.", description: "We sell Stuff", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
   Location.create(name: "Subway", address: "4 Happy St.", description: "We sell sanwiches and stuff", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
+
