@@ -16,4 +16,5 @@ Rails.application.routes.draw do
      get "/locations", to: "locations#index", as: "locations"
      get '/locations/:id/edit', to: 'locations#edit', as: "location_edit"
      get '/homes', to: 'home#show', as: "homes"
+     get "/locations/:id/edit", to: "locations#edit", as: "edit_location"
    end
