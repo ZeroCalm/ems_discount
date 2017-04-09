@@ -21,7 +21,24 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#  If you use Rails >= 4, you need to use activeadmin >= 1
+#  from github and remove metasearch
+
+# https://github.com/activeadmin/activeadmin/issues/3926
+# and
+# https://github.com/madzhuga/rails_workflow/issues/21
+gem 'activeadmin', github: 'activeadmin'
+
+# Plus integrations with:
 gem 'devise'
+gem 'cancan' # or cancancan
+gem 'rails_workflow'
+gem 'activemodel-serializers-xml', github: 'rails/activemodel-serializers-xml'
+
+gem 'draper'
+gem 'responders', github: 'plataformatec/responders'
+gem 'pundit'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
