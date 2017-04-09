@@ -12,3 +12,4 @@
   Location.create(name: "Burger King", address: "3 Happy St.", description: "We sell Stuff", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
   Location.create(name: "Subway", address: "4 Happy St.", description: "We sell sanwiches and stuff", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
 
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
