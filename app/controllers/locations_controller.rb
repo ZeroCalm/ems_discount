@@ -12,5 +12,14 @@ class LocationsController < ApplicationController
     @location = Location.find_by_id(location_id)
   end
 
-  
+private
+  def set_location
+      @location = Location.find(params[:id])
+    end
+
+    # Defines parameters for 'City'
+    def location_params
+      params.require(:location).permit(:name, :address)
+    end
+
 end
