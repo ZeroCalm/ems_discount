@@ -10,20 +10,10 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require bootstrap-3.3.7.min
- *= require_tree .
- *= require_self
+
+
+
  */
-
- @media screen and (max-width: 840px) {
-   .signup{
-     color:red;
-     font-size: 3em;
-     display: inline;
-     margin-top: 10%;
-   }
-
- }
 
 
  #map {
