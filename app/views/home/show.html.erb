@@ -3,9 +3,9 @@
 
 
 <h2>Users</h2>
-<ul class="list-group">
 
   <% @users.each do |user| %>
+  <ul class="list-group user-list">
     <li class="list-group-item"><%= user.email %></li>
     <%= link_to "Edit User", edit_user_registration_path(user.id) %>
     <%= link_to "Delete User", cancel_user_registration_path(user.id) %>
@@ -24,12 +24,12 @@
 
 <h2>Locations</h2>
 
-<ul class="list-group">
 
 <% @locations.each do |location| %>
+<ul class="list-group location-list">
   <li class="list-group-item"><<%= location.id %></li>
   <%= link_to "Edit Location", edit_location_path(:id) %>
-  
+
 </ul>
 <% end %>
 
