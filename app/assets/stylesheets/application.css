@@ -25,8 +25,15 @@
    background-image: url("./background.jpg");
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-position: center; 
+   background-position: center;
 }
+
+.title{
+  position: fixed;
+  bottom: 0px;
+  display: inline-flex;
+}
+
 
  .user-list{
    background-color: lightblue;
@@ -34,4 +41,8 @@
 
  .location-list{
    background-color: red;
+}
+
+.disappear{
+  opacity: 0.0;
 }
