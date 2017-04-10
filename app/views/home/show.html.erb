@@ -25,13 +25,5 @@
 <h2>Locations</h2>
 
 
-<% @locations.each do |location| %>
-<ul class="list-group location-list">
-  <li class="list-group-item"><<%= location.id %></li>
-  <%= link_to "Edit Location", edit_location_path(:id) %>
-
-</ul>
-<% end %>
-
 
 <a class="navbar-link" href="/users/edit">Edit profile</a>
