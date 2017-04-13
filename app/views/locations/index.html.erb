@@ -1,23 +1,10 @@
-<h1 class="disappear">All Locations / Map Page</h1>
 
+<h1>All Locations</h1>
+    <% @locations.each do |location| %>
+        <ul class="list-group user-list">
+          <li class="list-group-item"><%= location.name %></li>
 
-
-
-
-
-
-  <li role="presentation"><%= link_to "edit here", homes_path %></li>
-
-<style media="screen">
-  iframe{
-    width: 100%;
-  }
-</style>
-
-             <!-- JAVASCRIPT FOR THE MAP --------->
-
-  </head>
-  <body>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1CX8PFGLorO6p3JsdvwsIhKW2n0Q" width="640" height="480"></iframe>
-               </body>
-             </html>
+        
+        </ul>
+    <% end %>
+<%#= render partial: "map" %>

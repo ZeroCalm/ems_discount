@@ -7,4 +7,10 @@ class HomeController < ApplicationController
     @users = User.all
     @locations = Location.all
   end
+
+  def map
+    @locations = Location.all
+  end
+
+
 end

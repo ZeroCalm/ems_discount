@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Code 4 Discounts
 
-Things you may want to cover:
+THis application (WORK IN PROGRESS), will provide location information via Google.maps API, of food locations that provide discounts to EMS providers.  
 
-* Ruby version
+Currently, the map shows five locations in Alameda and Santa Clara Counties with Google's information window providing location specifics.
 
-* System dependencies
+In the near future there will be two maps.  
 
-* Configuration
+  1.  First Map, will allow users to click on locations, provide information about the discounts offered and save that location and information to the database.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  2.  User Generated Content.  The Second map will show all locations added to the database with discount information.  

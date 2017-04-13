@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-  Location.create(name: "Ikes Sanwiches", address: "1 Happy St.", description: "We sell sanwiches", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
-  Location.create(name: "McDonalds", address: "2 Happy St.", description: "We sell bad health", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
-  Location.create(name: "Burger King", address: "3 Happy St.", description: "We sell Stuff", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
-  Location.create(name: "Subway", address: "4 Happy St.", description: "We sell sanwiches and stuff", discount_offered: "20% off ALL purchases", latitude: "12345", longitude: "98765")
+# Location.create(name: "Ikes Sanwiches", address: "1 Happy St.", food_type: "We sell sanwiches", discount_offered: "20% off ALL purchases", lat: "40.741895", lng:"-73.989308")
+# Location.create(name: "Mcdonalds", address: "23 YeaBuddy St.", food_type: "Burgers", discount_offered: "20% off ALL purchases")
+# Location.create(name: "Burger King", address: "19 Nineteenth St.", food_type: "Burritos", discount_offered: "20% off ALL purchases")
+# Location.create(name: "Wendy's Burgers", address: "12 General Assembly St.", food_type: "Thai Food", discount_offered: "20% off ALL purchases")
 
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password', admin: true)
