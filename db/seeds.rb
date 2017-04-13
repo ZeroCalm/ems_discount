@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Location.create(name: "Ikes Sanwiches", address: "1 Happy St.", food_type: "We sell sanwiches", discount_offered: "20% off ALL purchases")
-Location.create(name: "Mcdonalds", address: "23 YeaBuddy St.", food_type: "Burgers", discount_offered: "20% off ALL purchases")
-Location.create(name: "Burger King", address: "19 Nineteenth St.", food_type: "Burritos", discount_offered: "20% off ALL purchases")
-Location.create(name: "Wendy's Burgers", address: "12 General Assembly St.", food_type: "Thai Food", discount_offered: "20% off ALL purchases")
+# Location.create(name: "Ikes Sanwiches", address: "1 Happy St.", food_type: "We sell sanwiches", discount_offered: "20% off ALL purchases", lat: "40.741895", lng:"-73.989308")
+# Location.create(name: "Mcdonalds", address: "23 YeaBuddy St.", food_type: "Burgers", discount_offered: "20% off ALL purchases")
+# Location.create(name: "Burger King", address: "19 Nineteenth St.", food_type: "Burritos", discount_offered: "20% off ALL purchases")
+# Location.create(name: "Wendy's Burgers", address: "12 General Assembly St.", food_type: "Thai Food", discount_offered: "20% off ALL purchases")
 
-# User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password', admin: true)
+User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password', admin: true)

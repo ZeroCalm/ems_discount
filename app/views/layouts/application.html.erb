@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EmsDiscount</title>
+    <title>Ems Discount</title>
     <%= csrf_meta_tags %>
     <%= favicon_link_tag 'favicon.ico' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -18,6 +18,9 @@
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
 </span>
+
+<%= link_to "Locations", locations_path %>
+<%= link_to "Users", homes_path %>
 
 <%= yield %>
   </body>
