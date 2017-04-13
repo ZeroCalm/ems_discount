@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
      root to: "home#index"
 
-
+     get "/_map.html.erb", to: "home#map"
      get "/locations", to: "locations#index", as: "locations"
      get '/locations/:id/edit', to: 'locations#edit', as: "location_edit"
      get '/homes', to: 'home#show', as: "homes"

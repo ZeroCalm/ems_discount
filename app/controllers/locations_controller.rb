@@ -4,6 +4,8 @@ class LocationsController < ApplicationController
     @user = current_user
   end
 
+  
+
   def Show
         @users = User.all
   end

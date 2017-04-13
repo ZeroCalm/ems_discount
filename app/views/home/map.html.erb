@@ -1,0 +1,27 @@
+<style>
+       #map {
+        height: 75;
+        width: 100%;
+       }
+</style>
+
+
+<h3>Code 4 Discounts Map</h3>
+
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var location = {lat: 37.8044444, lng: -122.2697222};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0NxGCyp44F5T3Xv5xOzPY2pTp1f1Hlgc&callback=initMap">
+    </script>
